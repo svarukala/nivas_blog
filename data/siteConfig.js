@@ -8,7 +8,7 @@ module.exports = {
   authorDescription: `
   I work with customers helping them achieve more using Microsoft Technologies. I am in my 9th year with Microsoft as of March 2020. I get to work with really smart people (both at Microsoft and Customers). Helping customers, removing any blockers, rapid prototyping is my core work.
   `,
-  siteUrl: 'https://nivas.org',
+  siteUrl: 'https://nivas.org/',
   disqusSiteUrl: 'https://nivas.org',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
   pathPrefix: '/blog', // Note: it must *not* have a trailing slash.
