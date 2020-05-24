@@ -1,30 +1,27 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-morning-dew',
-  siteDescription: 'A Gatsby theme/starter to build lightning-fast websites',
-  authorName: 'Maxence Poutord',
-  twitterUsername: '_maxpou',
-  authorAvatar: 'avatar.jpeg', // file in content/images
+  siteTitle: 'Srinivas Varukala\'s Blog',
+  siteDescription: 'Personal blog - mostly technical topics related to Microsoft Technologies',
+  authorName: 'Srinivas Varukala',
+  twitterUsername: 'svarukala',
+  authorAvatar: 'me.png', // file in content/images
   defaultLang: 'en', // show flag if lang is not default. Leave empty to enable flags in post lists
   authorDescription: `
-  For the last decade, Maxence Poutord has worked with a variety of web technologies. He is currently focused on front-end development.
-  On his day to day job, he is working as a senior front-end engineer at VSware. He is also an occasional tech speaker and a mentor.
-  As a digital nomad, he is living where the WiFi and sun are 😎 <br>
-  Do you want to know more? <a href="https://www.maxpou.fr/about" target="_blank">Visit my website!</a>
+  I work with customers helping them achieve more using Microsoft Technologies. I am in my 9th year with Microsoft as of March 2020. I get to work with really smart people (both at Microsoft and Customers). Helping customers, removing any blockers, rapid prototyping is my core work.
   `,
-  siteUrl: 'https://maxpou.github.io/',
-  disqusSiteUrl: 'https://www.maxpou.fr/',
+  siteUrl: 'https://nivas.org',
+  disqusSiteUrl: 'https://nivas.org',
   // Prefixes all links. For cases when deployed to maxpou.fr/gatsby-starter-morning-dew/
-  pathPrefix: '/gatsby-starter-morning-dew', // Note: it must *not* have a trailing slash.
-  siteCover: 'cover-baymax.jpeg', // file in content/images
-  googleAnalyticsId: 'UA-67868977-1',
+  pathPrefix: '/blog', // Note: it must *not* have a trailing slash.
+  siteCover: 'code.jpg', // file in content/images
+  googleAnalyticsId: 'UA-99814-1',
   background_color: '#ffffff',
   theme_color: '#222222',
   display: 'standalone',
-  icon: 'content/images/baymax.png',
+  icon: 'content/images/me.png',
   postsPerPage: 6,
-  disqusShortname: 'maxpou',
-  headerTitle: 'gatsby-starter-morning-dew',
-  headerLinksIcon: 'baymax.png', //  (leave empty to disable: '')
+  disqusShortname: 'nivas',
+  headerTitle: 'Srinivas Varukala\'s Blog',
+  headerLinksIcon: 'me.png', //  (leave empty to disable: '')
   headerLinks: [
     {
       label: 'Blog',
@@ -32,11 +29,7 @@ module.exports = {
     },
     {
       label: 'About',
-      url: '/about-gatsby-starter-morning-dew',
-    },
-    {
-      label: 'Installation',
-      url: '/how-to-install',
+      url: '/about-me',
     },
   ],
   // Footer information (ex: Github, Netlify...)
@@ -54,11 +47,7 @@ module.exports = {
         },
         {
           label: 'About',
-          url: '/about-gatsby-starter-morning-dew',
-        },
-        {
-          label: 'Installation',
-          url: '/how-to-install',
+          url: '/about-me',
         },
       ],
     },
@@ -67,15 +56,19 @@ module.exports = {
       links: [
         {
           label: 'GitHub',
-          url: 'https://github.com/maxpou/gatsby-starter-morning-dew',
+          url: 'https://github.com/svarukala',
         },
         {
           label: 'Website',
-          url: 'https://www.maxpou.fr',
+          url: 'https://nivas.org',
         },
         {
           label: 'Twitter',
-          url: 'https://twitter.com/_maxpou',
+          url: 'https://twitter.com/svarukala',
+        },
+        {
+          label: 'LinkedIn',
+          url: 'https://www.linkedin.com/in/svarukala/',
         },
       ],
     },

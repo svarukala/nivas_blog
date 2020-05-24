@@ -75,6 +75,9 @@ const HeaderLinkTitleContent = styled.span`
 const HeaderImage = styled.img`
   padding: 4px;
   height: 57px;
+  width: 57px;
+  border-radius: 50%;
+  display: inline-block;
 `
 
 const MobilePanel = styled.div`

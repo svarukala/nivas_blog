@@ -1,7 +1,7 @@
 ---
 title: How to install
 slug: how-to-install
-cover: ./cover.png
+cover: ./cover.jpg
 disqus: true
 ---
 
