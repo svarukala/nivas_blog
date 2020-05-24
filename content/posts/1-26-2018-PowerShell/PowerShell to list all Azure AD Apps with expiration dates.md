@@ -2,11 +2,13 @@
 title: PowerShell to list all Azure AD Apps with expiration dates
 slug: PowerShell-to-list-all-Azure-AD-Apps-with-expiration-dates
 cover: ./cover.jpg
-generate-card: false
+generate-card: true
 date: 2018-01-26
 language: en
 tags:
     - SharePoint
+    - PowerShell
+    - "Azure AD"
 ---
 
   
