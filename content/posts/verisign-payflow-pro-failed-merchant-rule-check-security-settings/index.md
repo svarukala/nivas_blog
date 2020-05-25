@@ -1,6 +1,6 @@
 ---
-title: Verisign Payflow Pro Failed merchant rule check : Security Settings
-slug: Verisign-Payflow-Pro-Failed-merchant-rule-check-:-Security-Settings
+title: Verisign Payflow Pro Failed merchant rule check Security Settings
+slug: Verisign-Payflow-Pro-Failed-merchant-rule-check-Security-Settings
 generate-card: false
 date: 2006-10-25
 language: en
