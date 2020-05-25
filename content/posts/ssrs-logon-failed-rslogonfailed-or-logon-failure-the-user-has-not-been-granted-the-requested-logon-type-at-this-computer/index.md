@@ -1,6 +1,6 @@
 ---
-title: SSRS Logon failed. (rsLogonFailed)  or Logon failure: the user has not been granted the requested logon type at this computer
-slug: SSRS-Logon-failed.-(rsLogonFailed)-or-Logon-failure:-the-user-has-not-been-granted-the-requested-logon-type-at-this-computer
+title: SSRS Logon failed. (rsLogonFailed)  or Logon failure the user has not been granted the requested logon type at this computer
+slug: SSRS-Logon-failed.-(rsLogonFailed)-or-Logon-failure-the-user-has-not-been-granted-the-requested-logon-type-at-this-computer
 generate-card: false
 date: 2010-03-23
 language: en
