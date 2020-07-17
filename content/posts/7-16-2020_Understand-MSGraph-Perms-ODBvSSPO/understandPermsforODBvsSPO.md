@@ -19,7 +19,7 @@ Understanding Microsoft Graph Delegated Permissions for OneDrive versus SharePoi
 One of my peers raised a question recently in one of our internal Teams.
 The question was something like this:
 
-"*Using Microsoft Graph can we have read/write permissions that applies only to OneDrive for Business and not to SPO sites?*"
+**"*Using Microsoft Graph can we have read/write permissions that applies only to OneDrive for Business and not to SPO sites?*"**
 
 I thought I know the answer but after pondering for a minute I got
 confused. My confusion was around
@@ -75,7 +75,7 @@ Thanks to Brad Wyatt and his samples that covers various authN scenarios
 (AuthCode, DeviceCode, AppOnly, Password Creds etc.).
 
 Get files from SPO library:
-```PS1
+```powershell
 #The GUID is the Library/List ID.
 $apiUrl = 'https://graph.microsoft.com/v1.0/sites/root/lists/45c12593-c895-478c-916c-15c6368a40dc/items'
 try {
@@ -92,7 +92,7 @@ catch {
 ```
 
 Get files from ODB:
-```PS1
+```powershell
 $apiUrl = 'https://graph.microsoft.com/v1.0/me/drive/root/children'
 try {
     $odbResult = Invoke-RestMethod -Headers @{Authorization = "Bearer $($Tokenresponse.access_token)"} -Uri $apiUrl -Method Get
@@ -108,7 +108,7 @@ catch {
 ```
 
 Create file in ODB:
-```PS1
+```powershell
 $apiUrl = 'https://graph.microsoft.com/v1.0/me/drive/root:/DemoFile.txt:/content'
 $body = " This is sample text that goes into the text file"
 try {
@@ -126,7 +126,7 @@ catch {
 ```
 
 Create file in SPO:
-```PS1
+```powershell
 $apiUrl = 'https://graph.microsoft.com/v1.0/sites/root/drive/items/root:/DemoFile.txt:/content'
 $body = "This is sample text that goes into the text file"
 try {
@@ -141,7 +141,7 @@ catch {
 }
 ```
 
-Below is the full script:
-[gist](https://gist.github.com/svarukala/81534c815d6affbd47d472bf24ebf9d7#file-connect-msgraphauthcodeodbvsspoperms-ps1)
+Below are the links to the PowerShell scripts for reuse:
 
-`gist:svarukala/81534c815d6affbd47d472bf24ebf9d7#Connect-MSGraphAuthCodeODBvsSPOPerms.ps1`
+[Connect to Microsoft Graph using Authorization Code Flow](https://gist.github.com/svarukala/81534c815d6affbd47d472bf24ebf9d7#file-connect-msgraphauthcodeodbvsspoperms-ps1)
+[Connect to Microsoft Graph using Client Credentials Flow aka App-Only](https://gist.github.com/svarukala/0d8218d423ac47e48457fb44eb54cd38#file-connect-msgraphapponlyodbvsspoperms-ps1)
