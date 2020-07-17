@@ -143,5 +143,5 @@ catch {
 
 Below are the links to the PowerShell scripts for reuse:
 
-[Connect to Microsoft Graph using Authorization Code Flow](https://gist.github.com/svarukala/81534c815d6affbd47d472bf24ebf9d7#file-connect-msgraphauthcodeodbvsspoperms-ps1)
-[Connect to Microsoft Graph using Client Credentials Flow aka App-Only](https://gist.github.com/svarukala/0d8218d423ac47e48457fb44eb54cd38#file-connect-msgraphapponlyodbvsspoperms-ps1)
+- [Connect to Microsoft Graph using Authorization Code Flow](https://gist.github.com/svarukala/81534c815d6affbd47d472bf24ebf9d7#file-connect-msgraphauthcodeodbvsspoperms-ps1)
+- [Connect to Microsoft Graph using Client Credentials Flow aka App-Only](https://gist.github.com/svarukala/0d8218d423ac47e48457fb44eb54cd38#file-connect-msgraphapponlyodbvsspoperms-ps1)
