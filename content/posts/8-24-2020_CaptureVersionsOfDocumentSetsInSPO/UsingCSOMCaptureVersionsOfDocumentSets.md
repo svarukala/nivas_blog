@@ -19,13 +19,11 @@ With the latest release of SharePoint Online Client Components aka CSOM (Client-
 
 ![ECB Menu on Doc Set](./ecb-menu.png)
 
-This API is now made access to public through the latest CSOM release. Glad to share that I personally worked on a Design Change Request (DCR) to get this approved from Product Group. DCR is our internal process to make a business justification with enough evidence that a certain feature is needed/modified etc. That's one of the many ways Product Group takes feedback from field broadening our impact in this role as a Premier Field Engineer (or Customer Engineer).
+This API is now made generally available to everyone through the latest CSOM release. Glad to share that I personally worked on a Design Change Request (DCR) to get this approved from Product Group. DCR is our internal process to make a business justification with enough evidence that a certain feature is needed/modified etc. That's one of the many ways Product Group takes feedback from field broadening our impact in this role as a Premier Field Engineer (or Customer Engineer).
 
 Here are short snippets of C# sample code that shows how the CSOM code works.
 
-Below are the links to the PowerShell scripts for reuse:
-
-Start with basic CSOM: Authenticate and then get a site title.
+Start with basic CSOM. Authenticate and then get a site title:
 ```csharp
 string userName = "userid@Contoso.OnMicrosoft.com";
 SecureString password = ConvertToSecureString("secretpassword");
@@ -36,7 +34,7 @@ ctx.ExecuteQuery();
 Console.WriteLine(ctx.Web.Title);
 ```
 
-Now that you have your ClientContext object ready. You can now request all the Document Set items from the library. Then request the version collection for each document set item.
+Now that you have your ClientContext object ready. You can request all the Document Set items from the library. Then request the version collection for each document set item.
 ```csharp
 var list = ctx.Web.Lists.GetByTitle("Documents");
 //Use below two lines if you want to load a specific item by id
@@ -168,3 +166,8 @@ foreach ($splListItem in $items)
  
 $ctx.Dispose()
 ```
+
+Here is the official MS docs for Add method that captures the version.
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.documentmanagement.documentsets.documentsetversioncollection.add?view=sharepoint-server
+
+Hope that helps!
