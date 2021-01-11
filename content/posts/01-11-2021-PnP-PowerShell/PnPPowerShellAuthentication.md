@@ -1,5 +1,5 @@
 ---
-title: Install the new PnP.PowerShell (based on .Net Core 3.1) and learn how it's Authentication Works
+title: Introducing the new PnP.PowerShell (based on .Net Core 3.1) and learn how it's Authentication Works
 slug: Learn-how-PnP-PowerShell-Authentication-Works
 cover: ./parker-ms-300.png
 generate-card: false
