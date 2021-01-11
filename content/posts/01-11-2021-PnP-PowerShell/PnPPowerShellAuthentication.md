@@ -57,7 +57,7 @@ Consider contoso.onmicrosoft.com tenant is where a AAD App is registered with th
 When you run the Register-PnPManagementShellAccess command, it will prompt you to consent to a large number of permissions. See picture below.
 ![PermsConsent](./perms.png)
 
-There is a way to take control on the permissions, minimize the permissions for the PnP PowerShell app for reasons like a shared environment or may be to use PnP PowerShell in Azure DevOps CICD pipeline. To do that instead of running the command Register-PnPManagementShellAccess command, you need to create the Service Principal on your own and request the minimal permissions needed for your scenario. Here is a [Azure CLI script sample](https://gist.github.com/svarukala/1d0c07d1706e378f45f7d715844ba585):
+There is a way to take control on the permissions, minimize the permissions for the PnP PowerShell app for reasons like a shared environment or may be to use PnP PowerShell in Azure DevOps CICD pipeline. To do that instead of running the Register-PnPManagementShellAccess command, you need to create the Service Principal on your own and request the minimal permissions needed for your scenario. Here is an [Azure CLI script sample](https://gist.github.com/svarukala/1d0c07d1706e378f45f7d715844ba585):
 
 ```powershell
 az login
@@ -76,24 +76,26 @@ az ad app permission grant --id $PnPPowerShellAppId --api 00000003-0000-0ff1-ce0
 # 
 # Caveat with previously consented SharePointPnPPowerShellOnline app
 
-If you've previously installed SharePointPnPPowerShellOnline and used it to log into your M365 tenant at some point, then that would have already created the Azure AD Enterprise app with the same ID but a different name ("PnP Office 365 Management Shell"). You can navigate to your Azure Portal > Azure Active Directory > Enterprise Applications. You can see the app there.
+If you've previously installed SharePointPnPPowerShellOnline and used it to log into your M365 tenant at some point, then that would have already created the Azure AD Enterprise app with the same ID but a different name ("PnP Office 365 Management Shell"). You can navigate to your Azure Portal > Azure Active Directory > Enterprise Applications to see the service principal.
 ![legacy pnp app](oldpnp.png)
 
 In this case running Register-PnPManagementShellAccess can be optional. The cmdlets work just fine. But not all commands work. Here is an error for Get-PnPSiteTemplate for example:
 ![Cmdlet error](permserror.png)
 
-To fix the above issue I ran the Register-PnPManagementShellAccess command but that had no affect. I had to delete the existing legacy enterprise app. To delete, you need to open the enterprise application, go to properties and select delete. Then run the Register-PnPManagementShellAccess command.
+To fix the above issue I ran the Register-PnPManagementShellAccess command but that didn't help. I had to delete the existing legacy enterprise app. To delete, you need to open the enterprise application, go to properties and select delete. Then run the Register-PnPManagementShellAccess command.
 
 # 
 # Use your own Azure AD App with PnP PowerShell
 
-The steps to create your Azure AD App to use with PnP PowerShell is [documented here](https://pnp.github.io/powershell/articles/authentication.html). **However, based on my research and understanding, you can use it for App-Only access**. To use with user login you have to use the service principal corresponding to PnP Management Shell.
+The steps to create your Azure AD App to use with PnP PowerShell is [documented here](https://pnp.github.io/powershell/articles/authentication.html). **However, based on my research and understanding, you can use it for App-Only access** (let me know if there is a way). To use with user login you have to use the service principal corresponding to PnP Management Shell.
 
 
 # 
 # Issue with uninstalling module in PowerShell Core 7.1
 
-When I tried to uninstall a module using Uninstall-Module command, although it runs without any errors, the module actually is not getting deleted. When I navigated to the module locations the I can see the folder corresponding to the module. To check the PS Module Path you can run the command $env:PSModulePath.
-I had to manually delete the module folder to get rid of the module. This might be an isolated issue but noting it down here if anyone hits that issue.
+When I tried to uninstall a module using Uninstall-Module command, although it runs without any errors, the module actually is not deleted. When I navigate to the module locations, I can see the folder corresponding to the module. To check the PS Module Path you can run the command **$env:PSModulePath**.
+I had to manually delete the module folder to get rid of the module. This might be an isolated issue but calling it out here if anyone hits that issue.
+
+Happy scripting!
 
 Hope that helps!
