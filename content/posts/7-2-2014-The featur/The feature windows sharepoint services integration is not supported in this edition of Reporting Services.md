@@ -1,7 +1,7 @@
 ---
 title: The feature "windows sharepoint services integration" is not supported in this edition of Reporting Services
 slug: The-feature-windows-sharepoint-services-integration-is-not-supported-in-this-edition-of-Reporting-Services
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-07-02
 language: en

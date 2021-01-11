@@ -1,7 +1,7 @@
 ---
 title: Using Microsoft Flow with Large Lists (3 part series)
 slug: Using-Microsoft-Flow-with-Large-Lists-(3-part-series)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-08-04
 language: en

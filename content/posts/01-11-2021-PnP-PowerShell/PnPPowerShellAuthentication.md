@@ -1,7 +1,7 @@
 ---
 title: Install the new PnP.PowerShell (based on .Net Core 3.1) and learn how it's Authentication Works
 slug: Learn-how-PnP-PowerShell-Authentication-Works
-cover: ./cover.jpg
+cover: ./parker-ms-300.png
 generate-card: false
 date: 2021-01-11
 language: en
@@ -16,6 +16,7 @@ tags:
     - Microsoft 365
     - Office 365
 ---
+
 # Introduction
 
 Microsoft 365 Patterns and Practices (PnP) team published a new PowerShell module for M365 that runs on .NET Core 3.1/.NET Framework 4.6.1 and PowerShell Core v7.1. This means this module is platform agnostic. This also means the legacy SharePointPnPPowerShellOnline module will eventually be discontinued. The reason for this shift is well explained by [PnP PowerShell team](https://github.com/pnp/powershell). 

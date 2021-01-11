@@ -1,7 +1,7 @@
 ---
 title: SQL AlwaysOn - Failed to join the database to the Availability Group (Error 35250)
 slug: SQL-AlwaysOn-Failed-to-join-the-database-to-the-Availability-Group-(Error-35250)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-03-31
 language: en

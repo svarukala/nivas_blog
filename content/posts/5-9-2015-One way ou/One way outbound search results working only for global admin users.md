@@ -1,7 +1,7 @@
 ---
 title: One way outbound search results working only for global admin users
 slug: One-way-outbound-search-results-working-only-for-global-admin-users
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2015-05-09
 language: en

@@ -1,7 +1,7 @@
 ---
 title: SharePoint Online Page Layout Pages with Summary Links - Error while executing the web part
 slug: SharePoint-Online-Page-Layout-Pages-with-Summary-Links-Error-while-executing-the-web-part
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2016-05-17
 language: en

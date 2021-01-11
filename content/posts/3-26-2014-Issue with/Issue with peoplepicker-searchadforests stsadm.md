@@ -1,7 +1,7 @@
 ---
 title: Issue with peoplepicker-searchadforests stsadm
 slug: Issue-with-peoplepicker-searchadforests-stsadm
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-03-26
 language: en

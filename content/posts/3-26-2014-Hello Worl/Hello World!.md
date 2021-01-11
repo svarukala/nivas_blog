@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 slug: Hello-World!
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-03-26
 language: en

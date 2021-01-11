@@ -1,7 +1,7 @@
 ---
 title: August 2014 CU/Security Updates/Public Updates for SharePoint 2010/2013
 slug: August-2014-CUSecurity-UpdatesPublic-Updates-for-SharePoint-20102013
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-08-14
 language: en

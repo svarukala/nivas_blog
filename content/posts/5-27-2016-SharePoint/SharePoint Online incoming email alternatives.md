@@ -1,7 +1,7 @@
 ---
 title: SharePoint Online incoming email alternatives
 slug: SharePoint-Online-incoming-email-alternatives
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2016-05-27
 language: en

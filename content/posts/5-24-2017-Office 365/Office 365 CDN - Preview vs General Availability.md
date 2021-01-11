@@ -1,7 +1,7 @@
 ---
 title: Office 365 CDN - Preview vs General Availability
 slug: Office-365-CDN-Preview-vs-General-Availability
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-05-24
 language: en

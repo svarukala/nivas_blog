@@ -1,7 +1,7 @@
 ---
 title: Create SharePoint Large Lists using Microsoft Flow (no-code solution)
 slug: Create-SharePoint-Large-Lists-using-Microsoft-Flow-(no-code-solution)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-08-04
 language: en

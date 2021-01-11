@@ -1,7 +1,7 @@
 ---
 title: SAML Claims User Id Format
 slug: SAML-Claims-User-Id-Format
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-03-26
 language: en

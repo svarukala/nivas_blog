@@ -1,7 +1,7 @@
 ---
 title: Update all items in a large list/library using Microsoft Flow (no-code solution)
 slug: Update-all-items-in-a-large-listlibrary-using-Microsoft-Flow-(no-code-solution)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-08-17
 language: en

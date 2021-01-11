@@ -1,7 +1,7 @@
 ---
 title: Iterate and get all items from a SharePoint Large List or Library using Microsoft Flow (no-code solution)
 slug: Iterate-and-get-all-items-from-a-SharePoint-Large-List-or-Library-using-Microsoft-Flow-(no-code-solution)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-08-08
 language: en

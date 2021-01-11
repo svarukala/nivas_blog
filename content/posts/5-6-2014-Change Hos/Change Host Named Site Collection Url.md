@@ -1,7 +1,7 @@
 ---
 title: Change Host Named Site Collection Url
 slug: Change-Host-Named-Site-Collection-Url
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-05-06
 language: en

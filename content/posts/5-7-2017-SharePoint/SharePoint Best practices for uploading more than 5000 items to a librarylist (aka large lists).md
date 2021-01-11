@@ -1,7 +1,7 @@
 ---
 title: SharePoint Best practices for uploading more than 5000 items to a library/list (aka large lists)
 slug: SharePoint-Best-practices-for-uploading-more-than-5000-items-to-a-librarylist-(aka-large-lists)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-05-07
 language: en

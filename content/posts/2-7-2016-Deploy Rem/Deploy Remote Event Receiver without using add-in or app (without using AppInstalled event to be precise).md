@@ -1,7 +1,7 @@
 ---
 title: Deploy Remote Event Receiver without using add-in or app (without using AppInstalled event to be precise)
 slug: Deploy-Remote-Event-Receiver-without-using-add-in-or-app-(without-using-AppInstalled-event-to-be-precise)
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2016-02-07
 language: en

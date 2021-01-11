@@ -1,7 +1,7 @@
 ---
 title: July 2014 CU for SharePoint 2013
 slug: July-2014-CU-for-SharePoint-2013
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2014-08-05
 language: en

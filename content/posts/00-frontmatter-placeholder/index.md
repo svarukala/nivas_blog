@@ -2,7 +2,6 @@
 title: this post is a ghost
 slug: invisible-post
 date: 2020-01-01
-
 # optional fields
 published: false
 unlisted: true

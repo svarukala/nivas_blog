@@ -1,7 +1,7 @@
 ---
 title: Site Collection Administrators - SharePoint Online vs On-Premises
 slug: Site-Collection-Administrators-SharePoint-Online-vs-On-Premises
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2016-05-18
 language: en

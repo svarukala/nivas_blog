@@ -1,7 +1,7 @@
 ---
 title: How to download or view SharePoint Online Search Crawl Logs using Security & Compliance Center
 slug: How-to-download-or-view-SharePoint-Online-Search-Crawl-Logs-using-Security-and-Compliance-Center
-cover: ./cover.png
+cover: ./cover.jpg
 generate-card: false
 date: 2017-08-09
 language: en
