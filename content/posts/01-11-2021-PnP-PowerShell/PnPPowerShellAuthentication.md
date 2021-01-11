@@ -16,6 +16,8 @@ tags:
     - Microsoft 365
     - Office 365
 ---
+# Summary
+The transition to the new PnP PowerShell for Microsoft 365 module should be smooth but if you see errors like 404 unauthorized or consent error, this blog might help you understand the underlying authentication mechanism behind PnP.PowerShell. Note that I cross posted this blog on [dev.to platform](https://dev.to/svarukala/introducing-the-new-pnp-powershell-based-on-net-core-3-1-and-learn-how-it-s-authentication-works-pn7) for better findability. 
 
 # Introduction
 
